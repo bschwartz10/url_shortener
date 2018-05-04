@@ -55,9 +55,11 @@ bundle install
 rake db:create
 rake db:migrate
 ```
-
-## Testing
 * Run `rspec` in your terminal to ensure all tests are passing.
+
+* In your terminal, start a local server: `rails s`
+
+* Open your browser to `localhost:3000`
 
 ## API Endpoints
 
@@ -72,9 +74,6 @@ rake db:migrate
 ```
 http://localhost:3000/api/v1/links?given_url=YOUR_URL_HERE&slug=YOUR_SLUG_HERE
 ```
-* In your terminal, start a local server: `rails s`
-
-* Open your browser to `localhost:3000`
 
 ## Libraries Used
 * [rspec-rails](https://github.com/rspec/rspec-rails) - Testing framework for Rails
