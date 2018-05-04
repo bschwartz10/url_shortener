@@ -62,7 +62,7 @@ rake db:migrate
 ## API Endpoints
 
 #### Links
-- **<code>GET</code> /api/v1/links**
+- **<code>POST</code> /api/v1/links**
 
 * You can POST a http request to the links endpoint to see a JSON response.
 
